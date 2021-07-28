@@ -3,7 +3,7 @@ const App = ({name, photo}) =>{
     const [image, setImage] = useState(``);
 
     import(`./img/${photo}`).then((image)=>{setImage(image)})
-    console.log(image);
+    // console.log(image);
     return(
         <div>
             <h3>{name}</h3>
